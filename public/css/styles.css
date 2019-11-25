@@ -1,0 +1,70 @@
+#app {
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 24px;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li span {
+  padding: 8px;
+}
+
+li button {
+    background: #312e2d;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+li.done {
+  color: #312e2d;
+  text-decoration: line-through;
+}
+
+li.done >span#done {
+    visibility: hidden;
+
+  }
+
+
+input[type="text"] {
+  padding: 10px;
+  width: 50%;
+}
+
+/* button{
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+} */
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background: #312e2d;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+}
